@@ -162,6 +162,60 @@ footer {
     color: white;
 }
 
+/* Professional profile photo */
+.profile-photo {
+    width: 165px;
+    height: 165px;
+    margin-bottom: 24px;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* Header buttons */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.button {
+    display: inline-block;
+    min-width: 150px;
+    padding: 12px 22px;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+.primary-button {
+    background: white;
+    color: #0b2545;
+}
+
+.primary-button:hover {
+    background: #eaf3fa;
+}
+
+.secondary-button {
+    background: transparent;
+    color: white;
+}
+
+.secondary-button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
     header {
