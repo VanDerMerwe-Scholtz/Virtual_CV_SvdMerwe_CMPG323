@@ -217,9 +217,12 @@ footer {
 }
 
 /* Mobile responsiveness */
+
 @media screen and (max-width: 768px) {
+
     header {
-        min-height: 300px;
+        min-height: 430px;
+        padding: 45px 18px;
     }
 
     header h1 {
@@ -230,8 +233,30 @@ footer {
         font-size: 17px;
     }
 
+    .profile-photo {
+        width: 140px;
+        height: 140px;
+        border-width: 5px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .button {
+        width: 100%;
+        margin: 0;
+    }
+
     nav {
-        gap: 16px;
+        gap: 15px;
+        padding: 14px 10px;
+    }
+
+    nav a {
+        font-size: 14px;
     }
 
     section {
@@ -239,8 +264,13 @@ footer {
         padding: 25px;
     }
 
+    section h2 {
+        font-size: 26px;
+    }
+
     #skills ul,
     #projects ul {
         grid-template-columns: 1fr;
     }
 }
+
